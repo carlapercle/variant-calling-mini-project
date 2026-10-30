@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # Pipeline básico de alineamiento y variant calling germinal (datos Illumina paired-end).
 # Uso: bash pipeline.sh referencia.fa R1.fastq.gz R2.fastq.gz MUESTRA [region]
-# Ejemplo de región: chr20:1-5000000 (opcional, para acelerar pruebas)
-# La referencia debe ser un FASTA sin comprimir.
+# Ejemplo de región: chr20:1-5000000 (para acelerar pruebas)
+
 set -euo pipefail
 
 if [ "$#" -lt 4 ]; then

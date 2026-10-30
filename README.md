@@ -8,7 +8,7 @@ Construir un pipeline reproducible, desde lecturas FASTQ de una muestra pública
 
 ## Datos
 
-Muestra pública de referencia (por ejemplo, una región pequeña de una muestra de Genome in a Bottle) y genoma de referencia humano. Se indicará aquí la fuente exacta y el identificador usados.
+Lecturas de una muestra de Genome in a Bottle (GIAB) y conjuntos de variantes de referencia de la carpeta release: https://ftp-trace.ncbi.nlm.nih.gov/ReferenceSamples/giab/release/
 
 ## Herramientas
 
@@ -42,6 +42,3 @@ bash pipeline.sh referencia.fa muestra_R1.fastq.gz muestra_R2.fastq.gz MUESTRA [
 - [ ] Anotación y clasificación de variantes
 - [ ] Documentación de resultados
 
-## Autora
-
-Carla Perpiñá Clérigues

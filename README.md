@@ -28,7 +28,7 @@ BWA-MEM, samtools, GATK (MarkDuplicates, HaplotypeCaller, GenotypeGVCFs) y bcfto
 
 ```bash
 # Entorno (conda)
-conda create -n varcall -c bioconda -c conda-forge bwa samtools bcftools gatk4
+conda env create -f environment.yml
 conda activate varcall
 
 # Ejecución

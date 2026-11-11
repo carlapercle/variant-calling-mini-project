@@ -1,0 +1,9 @@
+name: varcall
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - bwa
+  - samtools
+  - bcftools
+  - gatk4
